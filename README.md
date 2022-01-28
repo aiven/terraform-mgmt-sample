@@ -1,5 +1,5 @@
 # Managing your Aiven infrastructure with Terraform
-This code sample sets up an open source data infrastructure on the Aiven platform using Terraform, consisting of a PostgreSQL instance sending metrics to InfluxDB, which can be visualized with Grafana.
+This code sample sets up an open source data infrastructure on the Aiven platform using Terraform, consisting of a PostgreSQL® instance sending metrics to InfluxDB®, which can be visualized with Grafana®.
 
 Read more about this setup on the [Managing your Aiven infrastructure with Terraform]() article.
 
@@ -40,5 +40,13 @@ To destroy the infrastructure, set the `termination_protection` flag under the P
 $ terraform destroy
 ```
 
-# License
+## Trademarks
+
+Postgres, PostgreSQL and the Slonik Logo are trademarks or registered trademarks of the PostgreSQL Community Association of Canada, and used with their permission.
+
+InfluxDB® is a trademark [registered / owned] by InfluxData, which is not affiliated with, and does not endorse, this product.
+
+Terraform and Grafana are trademarks and property of their respective owners. All product and service names used in this website are for identification purposes only and do not imply endorsement.
+
+## License
 This project is licensed under the [Apache License, Version 2.0](https://github.com/aiven/aiven-kafka-connect-s3/blob/master/LICENSE).
